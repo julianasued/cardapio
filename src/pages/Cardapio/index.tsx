@@ -1,5 +1,6 @@
 import styles from './Cardapio.module.scss';
 import { ReactComponent as Logo } from 'assets/logo.svg';
+import Buscador from 'pages/Buscador';
 
 export default function Cardapio() {
     return (
@@ -16,6 +17,7 @@ export default function Cardapio() {
                 <h3 className={styles.cardapio__titulo}>
                     Cardápio
                 </h3>
+                <Buscador />
             </section>
         </main>
     );
